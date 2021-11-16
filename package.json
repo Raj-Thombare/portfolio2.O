@@ -1,0 +1,20 @@
+{
+  "name": "portfolio2.O",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build src/styles.css -o public/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Raj-Thombare/portfolio2.O.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Raj-Thombare/portfolio2.O/issues"
+  },
+  "homepage": "https://github.com/Raj-Thombare/portfolio2.O#readme"
+}

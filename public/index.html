@@ -1,55 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Raj Thombare</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" type="image/jpg" href="img/favicon-16x16.png">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
 </head>
-<body class="text-gray-700">
-    <div>
+
+<body class="text-gray-700 font-mono">
+    <div class="grid-cols-3">
         <div>
-            <nav>
-               <div class="p-4 flex border-b border-gray-100">
-                <a href="#" class="px-1">
-                    <img class="w-8 cursor-pointer" src="/public/img/logo.svg" alt="backpack-logo">
-                </a>
-                <div>
-                    <h1>
-                        <a class="font-bold uppercase text-lg" href="#">Raj Thombare</a>
-                    </h1>
+            <nav class="text-right">
+                <div class="p-4 flex justify-between border-b border-gray-100">
+
+                    <div class="mx-4">
+                        <h1>
+                            <a class="font-bold uppercase text-2xl" href="#">Raj Thombare</a>
+                        </h1>
+                    </div>
+                    <ul class="hidden text-center md:flex" id="menu">
+                        <li class="mx-4">
+                            <a class="font-bold" href="">
+                                <span>Home</span>
+                            </a>
+                        </li>
+                        <li class="mx-4">
+                            <a href="">
+                                <span>projects</span>
+                            </a>
+                        </li>
+                        <li class="mx-4">
+                            <a href="">
+                                <span>blogs</span>
+                            </a>
+                        </li>
+                        <li class="mx-4">
+                            <a href="">
+                                <span>contact</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="md:hidden cursor-pointer" id="burger">
+                        <img class="w-8 cursor-pointer" src="/public/img/logo.svg" alt="backpack-logo">
+                    </div>
                 </div>
-               </div>
-                <ul>
-                    <li>
-                        <a href="">
-                            <span>Home</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <span>projects</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <span>blogs</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <span>contact</span>
-                        </a>
-                    </li>
-                </ul>
+                
             </nav>
         </div>
         <main>
-            <div>
-                <img src="" alt="">
-            </div>
+            <div class="lg:mt-4 mt-2 px-4">
+                <div class="flex flex-col items-center">
+                    <div>
+                        <img class="w-72 rounded-full" src="/public/img/myphoto.png" alt="">
+                    </div>
+                    <h2 class="font-bold text-2xl mt-3">About me</h2>
+                    <p class="text-base text-center p-3">
+                        I'm Raj Thombare, final year computer science student. I like building things. Currently
+                        learning Full-Stack Development @neogcamp
+                    </p>
+                    <ul class="p-2 flex flex-row">
+                        <li class="m-3"><a class="link" href="https://github.com/Raj-Thombare" target="_blank"><i
+                                    class="ri-github-line ri-2x"></i></a></li>
+                        <li class="m-3"><a class="link" href="https://www.linkedin.com/in/rajthombare/"
+                                target="_blank"><i class="ri-linkedin-line ri-2x"></i></a></li>
+                        <li class="m-3"><a class="link" href="https://twitter.com/saysrakaa" target="_blank"><i
+                                    class="ri-twitter-line ri-2x"></i></a></li>
+                        <li class="m-3"><a class="link" href="https://www.instagram.com/im.rakaajr/" target="_blank"><i
+                                    class="ri-instagram-line ri-2x"></i></a></li>
+                    </ul>
+                </div>
+                <div class="text-center mt-8">
+                    <h3 class="font-bold text-2xl my-4">Skills</h3>
+                    <div
+                        class="p-2 max-w-lg m-auto grid grid-cols-4 md:grid-cols-5 lg:grid-cols-8  justify-items-center items-center gap-5">
+                        <img class="w-12" src="/public/img/skill-svg/html.svg" alt="">
+                        <img class="w-12" src="/public/img/skill-svg/css.svg" alt="">
+                        <img class="w-12" src="/public/img/skill-svg/tailwindcss.svg" alt="">
+                        <img class="w-12" src="/public/img/skill-svg/js.svg" alt="">
+                        <img class="w-12" src="/public/img/skill-svg/react-js.svg" alt="">
+                        <img class="w-12" src="/public/img/skill-svg/node-js.svg" alt="">
+                        <img class="w-12" src="/public/img/skill-svg/express-js.svg" alt="">
+                        <img class="w-12" src="/public/img/skill-svg/npm.svg" alt="">
+                    </div>
+                </div>
+                <!-- <div class="mt-4 grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <h4 class="font-bold text-xl my-1 text-center">Projects</h4>
+                    <div class="card bg-red-300 hover:shadow-lg">
+                        <img src="/public/img/myphoto.png" alt="stew" class="w-full h-32 sm:h-48 object-cover">
+                        <div class="m-4">
+                            <span class="font-bold">5 Bean Chili Stew</span>
+                            <span class="block text-gray-500 text-sm">Recipe by Mario</span>
+                        </div>
+                        <div class="badge">
+                            <svg class="w-4 inline-block" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
+                                viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                            <span>25 min</span>
+                        </div>
+                    </div>
+
+                    <div class="card hover:shadow-lg">
+                        <img src="/public/img/myphoto.png" alt="stew" class="w-full h-32 sm:h-48 object-cover">
+                        <div class="m-4">
+                            <span class="font-bold">5 Bean Chili Stew</span>
+                            <span class="block text-gray-500 text-sm">Recipe by Mario</span>
+                        </div>
+                        <div class="badge">
+                            <svg class="w-4 inline-block" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
+                                viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                            <span>20 min</span>
+                        </div>
+                    </div>
+
+                    <div class="card hover:shadow-lg">
+                        <img src="/public/img/myphoto.png" alt="stew" class="w-full h-32 sm:h-48 object-cover">
+                        <div class="m-4">
+                            <span class="font-bold">5 Bean Chili Stew</span>
+                            <span class="block text-gray-500 text-sm">Recipe by Mario</span>
+                        </div>
+                        <div class="badge">
+                            <svg class="w-4 inline-block" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
+                                viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                            <span>30 min</span>
+                        </div>
+                    </div>
+                </div> -->
         </main>
     </div>
+    <script src="app.js"></script>
 </body>
+
 </html>

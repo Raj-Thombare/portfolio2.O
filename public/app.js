@@ -7,4 +7,9 @@ burger.addEventListener('click',() => {
     }else{
         menu.classList.add('hidden')
     }
+
+    if(burger.classList.contains('rotate-0')){
+        burger.classList.toggle('rotate-180')
+    }   
 })
+

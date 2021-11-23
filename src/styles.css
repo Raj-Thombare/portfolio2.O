@@ -6,6 +6,10 @@
     @apply p-4 bg-gray-100 text-gray-900 border-b-2 rounded-lg shadow-md transform hover:scale-105 cursor-pointer transition-all ease-in duration-300 h;
 }
 
+.card-blog {
+    @apply p-4 bg-gray-100 text-gray-900 border-b-2 rounded-lg shadow-md transform hover:scale-105 cursor-pointer transition-all ease-in duration-300 h-blog;
+}
+
 .badge {
     @apply mr-2 text-gray-700 bg-white px-2 py-1 border-b-2 rounded-full;
 }
@@ -19,7 +23,11 @@
 }
 
 .h {
-    min-height: 340px;
+    min-height: 300px;
+}
+
+.h-blog {
+    min-height: 250px;
 }
 
 #toggle:checked ~ label div.toggle-dot {

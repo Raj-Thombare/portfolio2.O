@@ -17,6 +17,12 @@ module.exports = {
           'monospace',
         ],
       },
+      rotate: {
+        '360': '360deg',
+      },
+      boxShadow: {
+        '3xl': ' rgba(0, 0, 0, 0.05) 0px 0px 0px 1px',
+      }
     },
   },
   variants: {

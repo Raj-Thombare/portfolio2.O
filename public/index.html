@@ -12,95 +12,100 @@
 </head>
 
 <body class="max-w-5xl mx-auto text-gray-700 font-body">
-    <nav class="text-right border-b border-gray-100 md:flex justify-between">
-        <div class="">
-            <div class="p-4 flex justify-between">
-                <div class="mx-4 flex items-center">
-                    <h1>
-                        <a class="font-bold uppercase text-2xl" href="index.html">Raj Thombare</a>
-                    </h1>
-                </div>
-                <div class="md:hidden cursor-pointer transform rotate-0 transition-transform ease-in-out duration-500"
-                    id="burger">
-                    <button class="w-8 cursor-pointer">
-                        <img src="img/logo.svg" alt="backpack-logo">
-                    </button>
+    <div class="min-h-screen">
+        <nav class="text-right border-b border-gray-100 md:flex justify-between ">
+            <div class="">
+                <div class="p-4 flex justify-between">
+                    <div class="mx-4 flex items-center">
+                        <h1>
+                            <a class="font-bold uppercase text-2xl" href="index.html">Raj Thombare</a>
+                        </h1>
+                    </div>
+                    <div class="md:hidden cursor-pointer transform rotate-0 transition-transform ease-in-out duration-700"
+                        id="burger">
+                        <button class="w-8 cursor-pointer">
+                            <img src="img/logo.svg" alt="backpack-logo">
+                        </button>
+                    </div>
                 </div>
             </div>
-        </div>
-        <ul class="hidden text-center p-2 md:flex md:items-center mb-4 md:mb-0 text-lg" id="menu">
-            <li class="mx-4 my-2">
-                <a class="p-1 font-bold flex flex-row items-center justify-center md:p-0" href="index.html">
-                    <span><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 m-1" fill="none" viewBox="0 0 24 24"
-                            stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
-                        </svg></span>
-                    <span>Home</span>
-                </a>
-            </li>
-            <li class="mx-4 my-2">
-                <a class="p-1 flex flex-row items-center  opacity-80 justify-center md:p-0 hover:opacity-100" href="projects.html">
-                    <span>
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 m-1" fill="none" viewBox="0 0 24 24"
-                            stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
-                        </svg>
-                    </span>
-                    <span>projects</span>
-                </a>
-            </li>
-            <li class="mx-4 my-2">
-                <a class="p-1 flex flex-row items-center  opacity-80 justify-center md:p-0 hover:opacity-100" href="blogs.html">
-                    <span>
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 m-1" fill="none" viewBox="0 0 24 24"
-                            stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
-                        </svg>
-                    </span>
-                    <span>blogs</span>
-                </a>
-            </li>
-            <li class="mx-4 my-2">
-                <a class="p-1 flex flex-row items-center justify-center md:p-0 opacity-80 hover:opacity-100"
-                    href="mailto:Rajthombare3524@gmail.com?subject=Hello Raj&body=nice to connect with you"
-                    target="_blank">
-                    <span>
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 m-1" fill="none" viewBox="0 0 24 24"
-                            stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                        </svg>
-                    </span>
-                    <span>contact</span>
-                </a>
-            </li>
-        </ul>
-    </nav>
-    <main>
-        <div class="lg:mt-7 mt-2 px-4">
+            <ul class="hidden text-center p-2 md:flex md:items-center mb-4 md:mb-0 text-lg transition duration-300" id="menu">
+                <li class="mx-4 my-2">
+                    <a class="p-1 font-bold flex flex-row  items-center justify-center md:p-0" href="index.html">
+                        <span><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 m-1" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+                            </svg></span>
+                        <span>Home</span>
+                    </a>
+                </li>
+                <li class="mx-4 my-2">
+                    <a class="p-1 flex flex-row items-center  opacity-80 justify-center md:p-0 hover:opacity-100" href="projects.html">
+                        <span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 m-1" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
+                            </svg>
+                        </span>
+                        <span>projects</span>
+                    </a>
+                </li>
+                <li class="mx-4 my-2">
+                    <a class="p-1 flex flex-row items-center  opacity-80 justify-center md:p-0 hover:opacity-100" href="blogs.html">
+                        <span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 m-1" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                            </svg>
+                        </span>
+                        <span>blogs</span>
+                    </a>
+                </li>
+                <li class="mx-4 my-2">
+                    <a class="p-1 flex flex-row items-center justify-center md:p-0 opacity-80 hover:opacity-100"
+                        href="mailto:Rajthombare3524@gmail.com?subject=Hello Raj&body=nice to connect with you"
+                        target="_blank">
+                        <span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 m-1" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                            </svg>
+                        </span>
+                        <span>contact</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <div class="flex flex-col items-center mx-w-3xl m-auto mt-6 md:mt-10 ">
             <div class="flex flex-col items-center mx-w-3xl m-auto">
                 <div class="mb-4 mt-3">
                     <img class="w-64 md:w-72 rounded-full" src="img/myphoto.png" alt="">
                 </div>
-                <h2 class="font-bold text-3xl mt-3 text-center">Hello, I'm Raj Thombare</h2>
+                <p class="mt-3 text-center font-bold">Hello, I'm <span class="font-bold mx-1 text-4xl">Raj Thombare</span></p>
                 <p class="text-base p-3 md:mx-44 text-justify md:text-center">
                     Front-end engineer from Navi Mumbai, Maharashtra. I like building things. Currently
                     learning Full-Stack Development.
                 </p>
-                <ul class="p-2 flex flex-row">
-                    <li class="m-3"><a class="link" href="https://github.com/Raj-Thombare" target="_blank"><i
-                                class="ri-github-line ri-2x"></i></a></li>
-                    <li class="m-3"><a class="link" href="https://www.linkedin.com/in/rajthombare/" target="_blank"><i
-                                class="ri-linkedin-line ri-2x"></i></a></li>
-                    <li class="m-3"><a class="link" href="https://twitter.com/saysrakaa" target="_blank"><i
-                                class="ri-twitter-line ri-2x"></i></a></li>
-                    <li class="m-3"><a class="link" href="https://www.instagram.com/jr.rakaa/" target="_blank"><i
-                                class="ri-instagram-line ri-2x"></i></a></li>
-                </ul>
+                <p class="hidden md:block text-base p-3 md:mx-44 text-justify md:text-center">I'm a Computer Science student seeking internship opportunities in the software industry. Interested in working with the corporate organization while gaining knowledge and valuable industry experience.</p>
             </div>
+            <ul class="p-2 flex flex-row">
+                <li class="m-3"><a class="link" href="https://github.com/Raj-Thombare" target="_blank"><i
+                            class="ri-github-line ri-2x"></i></a></li>
+                <li class="m-3"><a class="link" href="https://www.linkedin.com/in/rajthombare/" target="_blank"><i
+                            class="ri-linkedin-line ri-2x"></i></a></li>
+                <li class="m-3"><a class="link" href="https://twitter.com/saysrakaa" target="_blank"><i
+                            class="ri-twitter-line ri-2x"></i></a></li>
+                <li class="m-3"><a class="link" href="https://www.instagram.com/jr.rakaa/" target="_blank"><i
+                            class="ri-instagram-line ri-2x"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    <main>
+        <div class="lg:mt-7 mt-2 px-4">
             <div class="text-center mt-8">
                 <h3 class="font-bold text-2xl my-8">Skills</h3>
                 <div
@@ -122,40 +127,25 @@
                         <div>
                             <div class="card">
                                 <header>
-                                    <div class="flex justify-between items-center border-b-2">
+                                    <div class="flex justify-between items-center mb-3">
                                         <div class="p-1">
-                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none"
-                                                viewBox="0 0 24 24" stroke="currentColor">
-                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                                    d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z" />
-                                            </svg>
+                                            <i class="ri-folder-line ri-3x"></i>
                                         </div>
-                                        <div class="p-1 flex items-center">
+                                        <div class="p-1 flex items-center align-baseline">
                                             <div class="mx-3">
-                                                <a href="https://is-your-birthday-lucky-raj.netlify.app/"
-                                                    target="_blank" class="link-icon">
-                                                    <span>
-                                                        Demo
-                                                    </span> 
+                                                <a href="https://is-your-birthday-lucky-raj.netlify.app/" target="_blank" class="link-icon">
+                                                    
                                                     <div>
-                                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4"
-                                                            fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                            <path stroke-linecap="round" stroke-linejoin="round"
-                                                                stroke-width="2"
-                                                                d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                                                        </svg>
+                                                        <i class="ri-external-link-line ri-xl"></i>
                                                     </div>
                                                 </a>
                                             </div>
                                             <div>
                                                 <a class="link-icon"
                                                     href="https://github.com/Raj-Thombare/is-your-birthday-lucky"
-                                                    target="_blank">
-                                                    <span>
-                                                        Github
-                                                    </span> 
+                                                    target="_blank">                                                  
                                                     <div>
-                                                        <i class="ri-github-line font-medium"></i>
+                                                        <i class="ri-github-line ri-xl"></i>
                                                     </div>
                                                 </a>
                                             </div>
@@ -164,15 +154,12 @@
                                     </div>
                                     <div class="p-1 mt-2">
                                         <h3 class="font-extrabold text-xl">
-                                            <a href="https://is-your-birthday-lucky-raj.netlify.app/" target="_blank">Is
-                                                your
-                                                birthday lucky?</a>
+                                            <a href="https://is-your-birthday-lucky-raj.netlify.app/">Is your birthday lucky?
+                                            </a>
                                         </h3>
                                     </div>
                                     <div class="p-1">
-                                        <p class="text-sm opacity-95">It's a Vanilla Javascript app which takes your
-                                            birthdate and
-                                            lucky number and tells if your Birthday is lucky or not!</p>
+                                        <p class="text-sm opacity-95">It's a Vanilla Javascript app which takes your birthdate and lucky number and tells if your Birthday is lucky or not!</p>
                                     </div>
                                 </header>
                                 <footer class="mt-5 py-2">
@@ -192,36 +179,25 @@
                         <div>
                             <div class="card">
                                 <header>
-                                    <div class="flex justify-between items-center border-b-2">
+                                    <div class="flex justify-between items-center mb-3">
                                         <div class="p-1">
-                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none"
-                                                viewBox="0 0 24 24" stroke="currentColor">
-                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                                    d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z" />
-                                            </svg>
+                                            <i class="ri-folder-line ri-3x"></i>
                                         </div>
-                                        <div class="p-1 flex items-center">
+                                        <div class="p-1 flex items-center align-baseline">
                                             <div class="mx-3">
                                                 <a href="https://hph60.csb.app/" target="_blank" class="link-icon">
-                                                    <span>
-                                                        Demo
-                                                    </span>
+                                                    
                                                     <div>
-                                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" class="h-4 w-4"
-                                                        viewBox="0 0 24 24" stroke="currentColor">
-                                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                                            stroke-width="2"
-                                                            d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                                                    </svg>
+                                                        <i class="ri-external-link-line ri-xl"></i>
                                                     </div>
                                                 </a>
                                             </div>
                                             <div>
-                                                <a class="link-icon" href="https://github.com/Raj-Thombare/Feel-the-Music"
-                                                    target="_blank">
-                                                    <span>Github</span>
+                                                <a class="link-icon"
+                                                    href="https://github.com/Raj-Thombare/Feel-the-Music"
+                                                    target="_blank">                                                  
                                                     <div>
-                                                        <i class="ri-github-line"></i>
+                                                        <i class="ri-github-line ri-xl"></i>
                                                     </div>
                                                 </a>
                                             </div>
@@ -234,16 +210,16 @@
                                         </h3>
                                     </div>
                                     <div class="p-1">
-                                        <p class="text-sm opacity-95">My friend asked me to suggest him some good music,
-                                            so that's why i made a Music Recommendation App using React.</p>
+                                        <p class="text-sm opacity-95">
+                                            My friend asked me to suggest him some good music, so that's why i made a Music Recommendation App using React..</p>
                                     </div>
                                 </header>
                                 <footer class="mt-5 py-2">
                                     <ul class="text-xs flex">
-                                        <li class="badge">React
-                                        </li>
                                         <li class="badge">
-                                            javaScript
+                                           React
+                                        </li>
+                                        <li class="badge"> javaScript
                                         </li>
                                     </ul>
                                 </footer>
@@ -253,35 +229,25 @@
                         <div>
                             <div class="card">
                                 <header>
-                                    <div class="flex justify-between items-center border-b-2">
+                                    <div class="flex justify-between items-center mb-3">
                                         <div class="p-1">
-                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none"
-                                                viewBox="0 0 24 24" stroke="currentColor">
-                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                                    d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z" />
-                                            </svg>
+                                            <i class="ri-folder-line ri-3x"></i>
                                         </div>
-                                        <div class="p-1 flex items-center">
+                                        <div class="p-1 flex items-center align-baseline">
                                             <div class="mx-3">
                                                 <a href="https://phineas-and-ferb-raj.netlify.app/" target="_blank" class="link-icon">
-                                                    <span>Demo</span>
+                                                    
                                                     <div>
-                                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none"
-                                                        viewBox="0 0 24 24" stroke="currentColor">
-                                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                                            stroke-width="2"
-                                                            d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                                                    </svg>
+                                                        <i class="ri-external-link-line ri-xl"></i>
                                                     </div>
                                                 </a>
                                             </div>
                                             <div>
                                                 <a class="link-icon"
                                                     href="https://github.com/Raj-Thombare/phineas-ferb-latin-translator"
-                                                    target="_blank">
-                                                    <span>Github</span>
+                                                    target="_blank">                                                  
                                                     <div>
-                                                        <i class="ri-github-line"></i>
+                                                        <i class="ri-github-line ri-xl"></i>
                                                     </div>
                                                 </a>
                                             </div>
